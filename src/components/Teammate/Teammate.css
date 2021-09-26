@@ -1,0 +1,22 @@
+.member-container {
+    margin-bottom: 10px;
+}
+
+.selected-member {
+    display: flex;
+    width: 75%;
+    border: 2px solid lightgoldenrodyellow;
+    margin: auto;
+    border: 2px solid lightgray;
+    background-color: rgba(173, 216, 230, 0.507);
+    color: darkblue;
+    border-radius: 10px;
+}
+
+.selected-member:hover {
+    background-color: rgba(173, 216, 230, 0.912);
+}
+
+.member-info {
+    margin-top: 30px;
+}

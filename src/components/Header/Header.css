@@ -1,0 +1,25 @@
+.heading-container {
+    background-image: url('./bga.png');
+    padding: 50px;
+
+}
+
+.heading-container div {
+    background-color: rgb(250, 229, 201);
+    padding: 7px;
+    border: 2px solid rgba(128, 128, 128, 0.22);
+    height: 200px;
+    background-color: rgba(52, 70, 77, 0.507);
+    color: white;
+    /* margin-top: 50px; */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.heading-container div:hover {
+    background-color: rgba(112, 92, 92, 0.637);
+}
+
+.special-name {
+    color: darkblue;
+}

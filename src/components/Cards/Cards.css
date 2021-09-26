@@ -1,0 +1,36 @@
+.profile-photo {
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.single-card {
+    border: 2px solid lightgray;
+    background-color: rgba(173, 216, 230, 0.507);
+    color: darkblue;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.single-card:hover {
+    /* background-image: url(./background.png); */
+    background-color: rgba(173, 216, 230, 0.912);
+}
+
+;
+
+.single-card :hover {
+    background-image: url('./background.png');
+}
+
+.button-regular {
+    padding: 5px;
+    width: 150px;
+    border: 1px solid lightskyblue;
+    background-color: lightslategray;
+    color: wheat;
+    font-weight: bold;
+    border-radius: 10px;
+}
