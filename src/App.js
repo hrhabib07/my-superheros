@@ -1,5 +1,4 @@
 import './App.css';
-import Check from './components/Check';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 

@@ -1,4 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import "./Cards.css"
 
@@ -23,9 +24,9 @@ const Cards = props => {
             onClick={()=>props.handleAddToTeam(props.user)}
             className="button-regular"
             >
-                {/* <FontAwesomeIcon  icon={["far", "coffee"]}/>
-                <FontAwesomeIcon icon={faCoffee} /> */}
-                Add to Team</button>
+                
+                  Add to Team 
+                  <small> <FontAwesomeIcon icon={faPlusCircle} /></small></button>
             <br />
         </div>
     );

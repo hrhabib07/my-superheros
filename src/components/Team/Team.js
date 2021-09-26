@@ -2,11 +2,10 @@ import React from 'react';
 import Teammate from '../Teammate/Teammate';
 import './Team.css';
 import '../Cards/Cards.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLayerGroup } from '@fortawesome/free-solid-svg-icons'
 
 const Team = (props) => {
-    // const {members} =props.member;
-    console.log(props);
-    console.log(props.member);
     let total = 0;
     props.member.map(member => total += member.salary )
  
@@ -27,7 +26,9 @@ const Team = (props) => {
             }
             </div>
             <div>
-                <button className="button-regular">Make A Team</button>
+                <button className="button-regular">Make A Team 
+                <small> <FontAwesomeIcon icon={ faLayerGroup} /></small>
+                </button>
             </div>
             
         </div>
